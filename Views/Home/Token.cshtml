@@ -1,0 +1,29 @@
+﻿@using System.Security.Claims
+@{
+    ViewData["Title"] = "Token Details";
+}
+<h1>@ViewData["Title"]</h1>
+
+
+@{
+    <hr />
+    if (User != null && User.Claims.Any())
+    {
+        <div class="row">
+            <div class="col-md-6"><strong>CLAIM TYPE</strong></div>
+            <div class="col-md-6"><strong>VALUE</strong></div>
+        </div>
+    }
+    else
+    {
+        <p>Please sign-in to see the Claim details!</p>
+    }
+    <hr />
+}
+@foreach (Claim claim in User.Claims)
+{
+    <div class="row">
+        <div class="col-md-6" style="overflow-wrap:break-word">@claim.Type</div>
+        <div class="col-md-6" style="overflow-wrap:break-word">@claim.Value</div>
+    </div>
+}

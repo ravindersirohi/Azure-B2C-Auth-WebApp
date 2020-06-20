@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Work\\AzureB2C\\AzureB2C.Auth.WebApp\\AzureB2C.Auth.WebApp.csproj": {}
+  },
+  "projects": {
+    "D:\\Work\\AzureB2C\\AzureB2C.Auth.WebApp\\AzureB2C.Auth.WebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Work\\AzureB2C\\AzureB2C.Auth.WebApp\\AzureB2C.Auth.WebApp.csproj",
+        "projectName": "AzureB2C.Auth.WebApp",
+        "projectPath": "D:\\Work\\AzureB2C\\AzureB2C.Auth.WebApp\\AzureB2C.Auth.WebApp.csproj",
+        "packagesPath": "C:\\Users\\Ravinder\\.nuget\\packages\\",
+        "outputPath": "D:\\Work\\AzureB2C\\AzureB2C.Auth.WebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ravinder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[0.1.5-preview, )"
+            },
+            "Microsoft.Identity.Web.UI": {
+              "target": "Package",
+              "version": "[0.1.5-preview, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
