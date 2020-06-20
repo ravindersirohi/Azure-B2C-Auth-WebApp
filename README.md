@@ -8,12 +8,15 @@
 
 # Web App Configurations
 
+Once Application gets registered updated the below configuraitons in applicaiton.json file. <br/>
+
 {
   "AzureAdB2C": {
     "Instance": "https://<your-tenant-name>.b2clogin.com",
     "ClientId": "<web-app-application-id>",
     "Domain": "<your-b2c-domain>",
-    "SignedOutCallbackPath": "/signout/<your-sign-up-in-policy>",
-    "SignUpSignInPolicyId": "<your-sign-up-in-policy>"
+    "SignUpSignInPolicyId": "<your-sign-up-in-policy>",
+    "ResetPasswordPolicyId":"<your-reset-password-policy>",
+    "EditProfilePolicyId":"<your-edit-profile-policy>"
   }
 }
